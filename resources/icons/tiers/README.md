@@ -1,4 +1,4 @@
-# symbols
+# tier symbols
 
 These are symbols that we might use for the different tiers of the schema.
 
