@@ -1,0 +1,24 @@
+---
+style:
+  extends: https://styles.trailsta.sh/protomaps-black.json
+  layers:
+    - type: circle
+      filter:
+        - any
+        - [ ==, [ get, 'tactile_paving' ], yes ]
+      paint:
+        circle-radius: 4
+        circle-color: "orange"
+    - type: circle
+      filter:
+        - any
+        - [ ==, [ get, 'tactile_paving' ], no ]
+      paint:
+        circle-radius: 2
+        circle-color: "blue"
+---
+[bbox:{{bbox}}];
+(
+  node["tactile_paving"];
+);
+out geom;
