@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0">
-
 	<group name="PWG Schema ALPHA v0.1"> 
-		
 		<!-- Node/Way: Crossing -->
 		<item name="01. Crossing (Node/Way)" type="node,way">
 			<label text="Crossing (Node/Way)" />
@@ -20,7 +18,6 @@
 			<combo key="crossing" text="Crossing" values="" default="" />
 			<combo key="crossing_ref" text="Crossing Ref" values="" default="" />
 		</item>
-		
 		<!-- Node/Way: Curb -->
 		<item name="02. Curb (Node/Way)" type="node,way,closedway">
 			<label text="Curb (Node/Way)" />
@@ -30,7 +27,6 @@
 			<combo key="tactile_paving:colour" text="Tactile Paving Color" values="yellow,white,Specify..." default="" />
 			<combo key="material" text="Material" values="concrete,asphalt,Specify..." default="" />
 		</item>
-		
 		<!-- Way: Sidewalk -->
 		<item name="03. Sidewalk (Way)" type="way">
 			<label text="Sidewalk (Way)" />
@@ -39,14 +35,11 @@
 			<combo key="surface" text="Surface" values="concrete,asphalt,paving_stones,brick,paved,Specify..." default="concrete" />
 			<combo key="lit" text="Lit" values="yes,no,24/7,disused" default="" />
 		</item>
-		
 		<!-- Area: Sidewalk -->
 		<item name="04. Sidewalk (Area)" type="closedway">
 			<label text="Sidewalk (Area)" />
 			<key key="area:highway" value="footway" />
 			<key key="landuse" value="highway" />
 		</item>
-		
 	</group>
-	
 </presets>
