@@ -1,6 +1,3 @@
-# tier symbols
+# Tier Symbols
 
-These are symbols that we might use for the different tiers of the schema.
-
-They are Inkscape files, so please open them in Inkscape to make your changes.
-The layers are named so that they should be pretty easy to modify.
+Bronze, Silver, Gold, and Diamond tier symbols created for use by the OSM US PWG.
