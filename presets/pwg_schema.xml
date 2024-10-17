@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0">
-	<group name="PWG Schema ALPHA v0.1"> 
+	<group name="PWG Schema ALPHA v0.2">
 		<!-- Node/Way: Crossing -->
 		<item name="01. Crossing (Node/Way)" type="node,way">
 			<label text="Crossing (Node/Way)" />
@@ -15,7 +15,7 @@
 			<combo key="lit" text="Lit" values="yes,no,24/7,disused" default="yes" />
 			<combo key="tactile_paving" text="Tactile Paving" values="yes,no" default="no" />
 			<combo key="tactile_paving:colour" text="Tactile Paving Color" values="yellow,white,Specify..." default="" />
-			<combo key="crossing" text="Crossing" values="" default="" />
+			<combo key="crossing" text="Crossing" values="uncontrolled,unmarked,marked,traffic_signals,no" default="" />
 			<combo key="crossing_ref" text="Crossing Ref" values="" default="" />
 		</item>
 		<!-- Node/Way: Curb -->
@@ -25,7 +25,7 @@
 			<combo key="kerb" text="Curb" values="raised,lowered,no,flush" default="raised" editable="false" />
 			<check key="tactile_paving" text="Tactile Paving" default="off" />
 			<combo key="tactile_paving:colour" text="Tactile Paving Color" values="yellow,white,Specify..." default="" />
-			<combo key="material" text="Material" values="concrete,asphalt,Specify..." default="" />
+			<combo key="surface" text="Surface" values="concrete,asphalt,Specify..." default="" />
 		</item>
 		<!-- Way: Sidewalk -->
 		<item name="03. Sidewalk (Way)" type="way">
@@ -40,6 +40,14 @@
 			<label text="Sidewalk (Area)" />
 			<key key="area:highway" value="footway" />
 			<key key="landuse" value="highway" />
+		</item>
+		<!-- Way: Roadway -->
+		<item name="05. Roadway (Way)" type="way">
+			<label text="Roadway (Way) Sidewalk Tagging" />
+			<combo key="sidewalk:both" text="Sidewalk (Both)" values="separate,yes,no" />
+			<combo key="sidewalk:left" text="Sidewalk (Left)" values="separate,yes,no" />
+			<combo key="sidewalk:right" text="Sidewalk (Right)" values="separate,yes,no" />
+			<text key="sidewalk" text="Sidewalk" default="" />
 		</item>
 	</group>
 </presets>
