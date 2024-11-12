@@ -8,7 +8,7 @@
 
 ## Vizualizations
 
-Style documents for use on [Overpass Ultra](https://overpass-ultra.us/). 
+Style documents for use on [Ultra](https://overpass-ultra.us/). 
 
 **How to use:** Replace the query on Overpass Ultra with the contents of the file. Navigate on the map to the desired area and hit "Run" at the top left.
 
