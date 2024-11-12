@@ -14,7 +14,7 @@ Style documents for use on [Overpass Ultra](https://overpass-ultra.us/).
 
 Refer to the [MapLibre Style Spec documentation](https://maplibre.org/maplibre-style-spec/) for more details on customizing the vizualization.
 
-* **[Sidewalk Tags on Roadways](https://github.com/Lumikeiju/OSM-US-PWG/blob/main/vizualizations/roadway_sidewalk_tagging)** | *(roadway_sidewalk_tags)* | Vizualization of `sidewalk*=*` tags on roadways
+* **[Sidewalk Tags on Roadways](https://github.com/Lumikeiju/OSM-US-PWG/blob/main/vizualizations/roadway_sidewalk_tagging)** | *(roadway_sidewalk_tagging)* | Vizualization of `sidewalk*=*` tags on roadways
 
 * **[Curb Type](https://github.com/Lumikeiju/OSM-US-PWG/blob/main/vizualizations/curb_type)** | *(curb_type)* | Vizualization of `kerb=raised|lowered|flush|no` values on nodes
 
