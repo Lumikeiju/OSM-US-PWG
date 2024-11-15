@@ -8,14 +8,14 @@
 			<combo key="footway" text="Footway" values="crossing" default="" />
 			<combo key="crossing:markings" text="Crossing Markings" values="yes,no,zebra,zebra:paired,Specify..." default="no" />
 			<combo key="crossing:markings:colour" text="Crossing Markings Color" values="yellow,white,Specify..." default="" />
-			<combo key="crossing:signals" text="Crossing Signals" values="yes,no" default="no" />
+			<combo key="crossing:signals" text="Crossing Signals" values="yes,no,shared,dedicated" default="no" />
 			<combo key="crossing:island" text="Crossing Island" values="yes,no" default="no" />
 			<combo key="crossing:continuous" text="Continuous" values="yes,no" default="no" />
 			<combo key="surface" text="Surface" values="asphalt,concrete,paving_stones,paved,Specify..." default="asphalt" />
 			<combo key="lit" text="Lit" values="yes,no,24/7,disused" default="yes" />
 			<combo key="tactile_paving" text="Tactile Paving" values="yes,no" default="no" />
 			<combo key="tactile_paving:colour" text="Tactile Paving Color" values="yellow,white,Specify..." default="" />
-			<combo key="crossing" text="Crossing" values="uncontrolled,unmarked,marked,traffic_signals,no" default="" />
+			<combo key="crossing" text="Crossing" values="uncontrolled,unmarked,traffic_signals,no" default="" />
 			<combo key="crossing_ref" text="Crossing Ref" values="" default="" />
 		</item>
 		<!-- Node/Way: Curb -->
