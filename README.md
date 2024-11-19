@@ -4,7 +4,7 @@
 
 ## Presets
 
-* **PWG Schema Preset** | *(pwg_schema.xml)* | Alpha version of a JOSM tagging preset following tagging guidelines developed by the PWG
+* **PWG Schema Preset** | *([pwg_schema.xml](https://github.com/Lumikeiju/OSM-US-PWG/blob/main/presets/pwg_schema.xml))* | Alpha version of a JOSM tagging preset following tagging guidelines developed by the PWG
 
 ## Visualizations
 
