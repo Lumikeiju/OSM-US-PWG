@@ -1,4 +1,5 @@
 ---
+# Styled Overpass query for use in Ultra (https://overpass-ultra.us)
 style:
   extends: https://styles.trailsta.sh/protomaps-black.json
   layers:
@@ -47,6 +48,7 @@ style:
         line-width: 2
         line-color: "#FBB13C"
 ---
+
 [bbox:{{bbox}}];
 (
   way[~"sidewalk"~"separate|yes|no"];
